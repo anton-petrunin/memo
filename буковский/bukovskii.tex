@@ -1,0 +1,24 @@
+\documentclass[oneside,a4paper]{article}
+
+\usepackage[utf8]{inputenc} %просто говоришь что за кодировка, я предпочитаю эту потому, что в ней есть ковычки.
+\usepackage[T1,T2A]{fontenc}
+\usepackage[russian]{babel}   %надо, он много чего делает
+\usepackage{indentfirst}
+\usepackage[colorlinks=true,
+citecolor=black,
+linkcolor=black,
+anchorcolor=black,
+filecolor=black,
+menucolor=black,
+urlcolor=black,
+unicode=true %для того, чтобы закладки в pdf-файлах правильно отображались
+]{hyperref}
+
+\hypersetup{
+pdftitle={Три курицы},
+pdfauthor={Чарльз Буковский, перевод Тоши}
+}
+
+\begin{document}
+\include{tri-kuritzy}
+\end{document}

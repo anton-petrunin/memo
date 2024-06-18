@@ -5,6 +5,7 @@ input mparrows
 verbatimtex
 %&latex
 \documentclass[a4paper,10pt]{article}
+\usepackage[X2,T2A]{fontenc}
 \usepackage{../memo}
 \begin{document}
 etex
