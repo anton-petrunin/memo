@@ -1,0 +1,39 @@
+%\documentclass[a6paper]{memoir}
+\usepackage{amssymb, amsfonts, amsmath, amsthm}
+\usepackage{epsfig,lpic,wrapfig}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage[english,russian]{babel}   
+\usepackage[utf8]{inputenc}
+\usepackage{soulutf8}
+\usepackage[top=20mm, bottom=20mm,inner=20mm, outer=18mm, paperwidth=6in, paperheight=9in]{geometry}
+\usepackage{indentfirst}%+отступ в первой строке
+\csname @openrightfalse\endcsname %chapters can start from left page
+\usepackage{caption}
+
+%\usepackage{epigraph}\renewcommand{\epigraphsize}{\footnotesize}\usepackage{blindtext}\usepackage{quotchap}
+
+\usepackage[
+colorlinks=true,
+citecolor=black,
+linkcolor=black,
+anchorcolor=black,
+filecolor=black,
+menucolor=black,
+urlcolor=black,
+unicode=true,
+unicode
+]{hyperref}
+
+\usepackage{titletoc}% http://ctan.org/pkg/titletoc
+\titlecontents*{section}[.5em]
+  {\small}
+  {\thecontentslabel.~{}}
+  {}
+  { \textbf{\thecontentspage}}
+  [; ][.]
+
+\def\ZZ{\mathbb{Z}}
+\def\RR{\mathbb{R}}
+
+\hyphenation{Ляйдс-пляйн ки-но-пу-те-шест-вен-ни-ков}
